@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+
+  <h1>Computer vs. Player</h1>
+
+  <div class="choices">
+    <i class="fas fa-laptop">
+      <span id="cChoice"> :</span>
+    </i>
+    <i class="fas fa-user">
+      <span id="pChoice"> :</span>
+    </i>
+  </div>
+
+  <div class="display">
+    Result: <i class="fas fa-laptop"></i><span id="cDisplay">
+      0 </span>:<span id="pDisplay"> 0 </span><i class="fas fa-user"></i>
+  </div>
+
+  <div class="buttons">
+    <button id="btnRock"><i class="far fa-hand-rock fa-4x"></i></button>
+    <button id="btnPaper"><i class="far fa-hand-paper fa-4x"></i></button>
+    <button id="btnScissors"><i class="far fa-hand-scissors fa-4x"></i></button>
+  </div>
+
+  <div class="buttons">
+    <button id="btnInput">Number of Plays</button>
+    <button id="btnPlay">Play Again</button>
+  </div>
+
+  <!-- div for generating winner/looser text when endGame-->
+  <div class="winLose">
+    <!-- You are the winner!!! or Game Over -->
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

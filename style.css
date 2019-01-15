@@ -1,0 +1,79 @@
+body {
+  background-color: #fcf650;
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  margin-bottom: 5px
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.choices i {
+  margin-bottom: 8px;
+}
+
+.display {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.winLose {
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+
+.buttons {
+  padding-top: 20px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #fcf650;
+  margin-left: 12px;
+  padding: 5px 16px;
+}
+
+#btnRock:hover, #btnPaper:hover, #btnScissors:hover{
+  color: Dodgerblue;
+  cursor: pointer;
+}
+
+#btnPlay, #btnInput {
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#btnPlay:hover {
+  background-color: #f25221;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#btnInput:hover {
+  background-color: green;
+  font-weight: 700;
+  cursor: pointer;
+}
