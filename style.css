@@ -1,15 +1,25 @@
 body {
+  margin: 0;
+  padding: 20px;
   background-color: #fcf650;
-  margin-top: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
 }
 
 h1 {
-  color: green;
-  text-align: center;
-  margin-bottom: 5px
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 3em;
+  color: blue;
 }
 
 .choices {
@@ -50,6 +60,7 @@ button {
   background-color: #fcf650;
   margin-left: 12px;
   padding: 5px 16px;
+  font-size: 1em;
 }
 
 #btnRock:hover, #btnPaper:hover, #btnScissors:hover{
@@ -73,7 +84,7 @@ button {
 }
 
 #btnInput:hover {
-  background-color: green;
+  background-color: yellow;
   font-weight: 700;
   cursor: pointer;
 }

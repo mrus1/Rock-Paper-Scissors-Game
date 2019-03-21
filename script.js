@@ -109,11 +109,13 @@ function oneRound() {
 
 function winFunc(){
   winText.textContent = "You are the winner!!!"
+  winText.style.color = "green"
   gameOver++
 };
 
 function looseFunc() {
   loseText.textContent = "Game Over"
+  loseText.style.color = "red"
   gameOver++
 };
 
