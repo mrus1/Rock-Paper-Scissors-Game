@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 20px;
+  padding: 0;
   background-color: #fcf650;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
@@ -9,24 +9,21 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 2px solid green;
+  align-items: center;
+  width: 100%;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding-bottom: 5px;
   font-size: 3em;
-  color: blue;
+  margin: 5px 0;
+  color: #0848af;
 }
 
 .choices {
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin-bottom: 5px;
+  color: #2a2a2b;
 }
 
 .choices i {
@@ -34,24 +31,9 @@ h1 {
 }
 
 .display {
-  text-align: center;
-  font-size: 30px;
+  font-size: 1.8em;
   font-weight: 700;
-}
-
-.winLose {
-  font-size: 40px;
-  text-align: center;
-  color: red;
-  font-weight: 800;
-}
-
-.buttons {
-  padding-top: 20px;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
+  color: #2a2a2b;
 }
 
 button {
@@ -60,7 +42,6 @@ button {
   background-color: #fcf650;
   margin-left: 12px;
   padding: 5px 16px;
-  font-size: 1em;
 }
 
 #btnRock:hover, #btnPaper:hover, #btnScissors:hover{
@@ -70,10 +51,8 @@ button {
 
 #btnPlay, #btnInput {
   margin-left: 10px;
-  border: 2px solid black;
+  border: 2px solid #00630a;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
   font-family: "Nunito", sans-serif;
 }
 
@@ -87,4 +66,11 @@ button {
   background-color: yellow;
   font-weight: 700;
   cursor: pointer;
+}
+
+.winLose {
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  font-weight: 800;
 }
